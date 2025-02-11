@@ -4,6 +4,12 @@ RideFlow is an advanced vehicle rental platform designed for ease of use and enh
 
 ---
 
+![RideFlow Banner](../RideFlow/src/assets/Screenshot_16.png)
+
+**Live Link:** [RideFlow](https://rideflow-bf126.web.app/)
+
+---
+
 ## 🔥 Key Features
 
 ### 🚀 Seamless User Experience
@@ -28,7 +34,7 @@ RideFlow is an advanced vehicle rental platform designed for ease of use and enh
 
 ---
 
-## 📖 Long Description
+## 📚 Long Description
 
 RideFlow is your ultimate destination for renting vehicles hassle-free. With a sleek interface and robust backend powered by JWT and Firebase, RideFlow redefines car rentals by combining ease, security, and performance. 
 
@@ -67,7 +73,7 @@ RideFlow includes advanced data visualization features:
 
 ---
 
-## 📦 Dependencies
+## 🛆 Dependencies
 
 Here is the list of all major dependencies used in the project:
 
@@ -106,7 +112,7 @@ Here is the list of all major dependencies used in the project:
 
 ---
 
-## 📂 Folder Structure
+## 💂‍♂️ Folder Structure
 
 ```plaintext
 RideFlow/
@@ -123,3 +129,8 @@ RideFlow/
 ├── package.json       # Project metadata and dependencies
 ├── README.md          # Project documentation
 └── LICENSE            # License file (if any)
+```
+
+---
+
+If you have any feedback or suggestions, feel free to contribute! 🚀
