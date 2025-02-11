@@ -4,7 +4,7 @@ RideFlow is an advanced vehicle rental platform designed for ease of use and enh
 
 ---
 
-![RideFlow Banner](../RideFlow/src/assets/Screenshot_16.png)
+![RideFlow Banner](/Screenshot_16.png)
 
 **Live Link:** [RideFlow](https://rideflow-bf126.web.app/)
 
