@@ -1,0 +1,207 @@
+[
+    {
+      "carModel": "Toyota Camry",
+      "dailyRentalPrice": 50,
+      "availability": true,
+      "vehicleRegistrationNumber": "ABC1234",
+      "features": ["GPS", "AC", "Heated Seats"],
+      "description": "A reliable and comfortable sedan with excellent fuel efficiency.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/9ZtnvKD/kevin-bonilla-YPfnv-Lc3bb-Q-unsplash.jpg",
+      "location": "New York",
+      "userDetails": {
+        "userId": "user123",
+        "name": "John Doe"
+      },
+      "dateAdded": "2024-12-23T12:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Honda Civic",
+      "dailyRentalPrice": 40,
+      "availability": true,
+      "vehicleRegistrationNumber": "XYZ5678",
+      "features": ["Bluetooth", "Backup Camera", "Cruise Control"],
+      "description": "A compact car with a sporty design and modern features.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/HBnH07n/tim-bernhard-w-G8-VTMHgc-Xw-unsplash.jpg",
+      "location": "Los Angeles",
+      "userDetails": {
+        "userId": "user456",
+        "name": "Jane Smith"
+      },
+      "dateAdded": "2024-12-22T08:30:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Ford Explorer",
+      "dailyRentalPrice": 70,
+      "availability": true,
+      "vehicleRegistrationNumber": "FOR7890",
+      "features": ["4WD", "Navigation", "Sunroof"],
+      "description": "A spacious SUV ideal for family trips and off-road adventures.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/qrN4cCg/haryad-art-2y-Baw-Nki-Abc-unsplash.jpg",
+      "location": "Chicago",
+      "userDetails": {
+        "userId": "user789",
+        "name": "Emily Johnson"
+      },
+      "dateAdded": "2024-12-21T09:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Chevrolet Malibu",
+      "dailyRentalPrice": 45,
+      "availability": true,
+      "vehicleRegistrationNumber": "CHE4567",
+      "features": ["Keyless Entry", "Bluetooth", "Rear Camera"],
+      "description": "A midsize sedan offering comfort and style for your journeys.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/Brp1QGB/evgeni-adutskevich-1s-Y64-Mje-Ix0-unsplash.jpg",
+      "location": "Miami",
+      "userDetails": {
+        "userId": "user101",
+        "name": "Mike Davis"
+      },
+      "dateAdded": "2024-12-20T15:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Tesla Model 3",
+      "dailyRentalPrice": 90,
+      "availability": true,
+      "vehicleRegistrationNumber": "TES9876",
+      "features": ["Autopilot", "Electric", "Heated Seats"],
+      "description": "A modern electric car with cutting-edge technology and efficiency.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/74CngSv/charlie-deets-D1-W5-Qen-Bzl-U-unsplash.jpg",
+      "location": "San Francisco",
+      "userDetails": {
+        "userId": "user202",
+        "name": "Sophia Brown"
+      },
+      "dateAdded": "2024-12-19T10:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "BMW X5",
+      "dailyRentalPrice": 120,
+      "availability": true,
+      "vehicleRegistrationNumber": "BMW2345",
+      "features": ["Luxury Interior", "All-Wheel Drive", "Panoramic Sunroof"],
+      "description": "A luxury SUV that combines elegance and high performance.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/cXyYSwn/daniel-gutko-t-Sh-F65-Ifz-Hg-unsplash.jpg",
+      "location": "Dallas",
+      "userDetails": {
+        "userId": "user303",
+        "name": "James Wilson"
+      },
+      "dateAdded": "2024-12-18T14:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Audi A4",
+      "dailyRentalPrice": 85,
+      "availability": true,
+      "vehicleRegistrationNumber": "AUD5678",
+      "features": ["Leather Seats", "Turbo Engine", "Navigation"],
+      "description": "A stylish sedan offering a smooth ride and luxurious features.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/1qcDzYd/brian-kungu-R0su4p5-Vx-8-unsplash.jpg",
+      "location": "Seattle",
+      "userDetails": {
+        "userId": "user404",
+        "name": "Olivia Martinez"
+      },
+      "dateAdded": "2024-12-17T16:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Hyundai Sonata",
+      "dailyRentalPrice": 35,
+      "availability": true,
+      "vehicleRegistrationNumber": "HYU8901",
+      "features": ["Adaptive Cruise Control", "Touchscreen", "Backup Camera"],
+      "description": "An affordable and efficient sedan with advanced safety features.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/cN1rdPW/hyundai-motor-group-8-Nh-U195-NN-4-unsplash.jpg",
+      "location": "Phoenix",
+      "userDetails": {
+        "userId": "user505",
+        "name": "Liam Garcia"
+      },
+      "dateAdded": "2024-12-16T11:30:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Mercedes-Benz C-Class",
+      "dailyRentalPrice": 110,
+      "availability": true,
+      "vehicleRegistrationNumber": "MER6789",
+      "features": ["Luxury Design", "Sunroof", "High-End Audio"],
+      "description": "A premium sedan with unmatched comfort and style.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/syV1TMw/samuele-errico-piccarini-FMb-WFDi-VRPs-unsplash.jpg",
+      "location": "Houston",
+      "userDetails": {
+        "userId": "user606",
+        "name": "Noah Anderson"
+      },
+      "dateAdded": "2024-12-15T13:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Kia Sportage",
+      "dailyRentalPrice": 60,
+      "availability": true,
+      "vehicleRegistrationNumber": "KIA5432",
+      "features": ["All-Wheel Drive", "Touchscreen", "Heated Seats"],
+      "description": "A compact SUV with excellent handling and great features.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/MfKk664/hyundai-motor-group-p-T2-Y5omh-DHE-unsplash.jpg",
+      "location": "Atlanta",
+      "userDetails": {
+        "userId": "user707",
+        "name": "Emma Robinson"
+      },
+      "dateAdded": "2024-12-14T09:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Jeep Wrangler",
+      "dailyRentalPrice": 80,
+      "availability": true,
+      "vehicleRegistrationNumber": "JEE4321",
+      "features": ["4WD", "Off-Road Ready", "Convertible Roof"],
+      "description": "The ultimate off-road SUV for adventurers.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/412yxyM/anthony-roberts-ZJ-aa-ZDS5q4-unsplash.jpg",
+      "location": "Denver",
+      "userDetails": {
+        "userId": "user808",
+        "name": "William Thompson"
+      },
+      "dateAdded": "2024-12-13T12:00:00Z",
+      "bookingStatus": "available"
+    },
+    {
+      "carModel": "Volkswagen Passat",
+      "dailyRentalPrice": 55,
+      "availability": true,
+      "vehicleRegistrationNumber": "VOL3210",
+      "features": ["Navigation", "Adaptive Cruise Control", "Bluetooth"],
+      "description": "A versatile sedan with excellent fuel efficiency and comfort.",
+      "bookingCount": 0,
+      "imageUrl": "https://i.ibb.co.com/QM5KFQL/zakaria-issaad-HHp-lac3o8g-unsplash.jpg",
+      "location": "Portland",
+      "userDetails": {
+        "userId": "user909",
+        "name": "Charlotte White"
+      },
+      "dateAdded": "2024-12-12T10:00:00Z",
+      "bookingStatus": "available"
+    }
+  ]
+  
