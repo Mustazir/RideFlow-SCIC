@@ -74,15 +74,15 @@ const Register = () => {
     }
     return (
         <div
-            className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center"
+            className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-black"
             style={{
                 backgroundImage: "url('/b-1.jpg')",
             }}
         >
-            <div className="w-full max-w-md bg-white bg-opacity-10 backdrop-blur-md  p-8 shadow-lg">
+            <div className="w-full max-w-md bg-white  bg-opacity-10 backdrop-blur-md  p-8 shadow-lg">
                 <div className="text-center mb-6">
 
-                    <h2 className="text-3xl font-title text-gray-800 font-semibold">
+                    <h2 className="text-3xl font-title dark:text-white text-gray-800 font-semibold">
                         Register
                     </h2>
                 </div>
@@ -91,7 +91,7 @@ const Register = () => {
                     <div className="mb-4">
                         <label
                             htmlFor="username"
-                            className="block text-sm text-gray-800 mb-2"
+                            className="block text-sm text-gray-800 mb-2 dark:text-white"
                         >
                             Username
                         </label>
@@ -99,7 +99,7 @@ const Register = () => {
                             type="text"
                             name="username"
                             placeholder="Enter your username"
-                            className="w-full px-4 py-2  bg-gray-400 bg-opacity-50 text-white focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full px-4 py-2   bg-gray-400 bg-opacity-50 text-white focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                     </div>
 
@@ -107,7 +107,7 @@ const Register = () => {
                     <div className="mb-4">
                         <label
                             htmlFor="email"
-                            className="block text-sm text-gray-800 mb-2"
+                            className="block text-sm text-gray-800 mb-2 dark:text-white"
                         >
                             Email
                         </label>
@@ -123,7 +123,7 @@ const Register = () => {
                     <div className="mb-4">
                         <label
                             htmlFor="photoURL"
-                            className="block text-sm text-gray-800 mb-2"
+                            className="block text-sm text-gray-800 mb-2 dark:text-white"
                         >
                             Photo URL
                         </label>
@@ -139,7 +139,7 @@ const Register = () => {
                     <div className="mb-6">
                         <label
                             htmlFor="password"
-                            className="block text-sm text-gray-800 mb-2"
+                            className="block text-sm text-gray-800 mb-2 dark:text-white"
                         >
                             Password
                         </label>
@@ -154,13 +154,13 @@ const Register = () => {
 
                     <button
                         type="submit"
-                        className="w-full py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
+                        className="w-full dark:text-white  dark:bg-black dark:border dark:border-white py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
                     >
                         Submit
                     </button>
                 </form>
                 <p className="text-center text-gray-500 mt-6 text-sm">
-                    Already have a Account <Link to={'/login'} className='hover:text-primary duration-200 underline pl-1'>Login</Link>
+                    Already have a Account <Link to={'/login'} className='dark:text-whit hover:text-primary duration-200 underline pl-1'>Login</Link>
                 </p>
             </div>
         </div>

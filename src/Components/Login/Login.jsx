@@ -84,15 +84,15 @@ const Login = () => {
   }
   return (
     <div
-      className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center"
+      className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-black"
       style={{
         backgroundImage: "url('/b3.jpg')",
       }}
     >
-      <div className="w-full max-w-md bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg">
+      <div className="w-full max-w-md bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg dark:text-white  dark:bg-gray-800">
         <div className="text-center mb-6">
 
-          <h2 className="text-3xl font-title text-gray-800 font-semibold">
+          <h2 className="text-3xl font-title text-gray-800 font-semibold dark:text-white  ">
             Log In
           </h2>
         </div>
@@ -100,7 +100,7 @@ const Login = () => {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-sm text-gray-900 mb-2"
+              className="block text-sm text-gray-900 mb-2 dark:text-white"
             >
               User Name or Email
             </label>
@@ -114,7 +114,7 @@ const Login = () => {
           <div className="mb-6">
             <label
               htmlFor="password"
-              className="block text-sm text-gray-900 mb-2"
+              className="block text-sm text-gray-900 mb-2 dark:text-white"
             >
               Password
             </label>
@@ -127,7 +127,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
+            className="dark:text-white dark:bg-black dark:border-white dark:border w-full py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
           >
             Submit
           </button>
@@ -139,7 +139,7 @@ const Login = () => {
           <p>Login with Google</p>
         </button>
         <p className="text-center text-gray-500 mt-6 text-sm">
-          Didnt have a Account  <Link to={'/register'} className='hover:text-primary duration-200 underline pl-1'> Register</Link>
+          Didnt have a Account  <Link to={'/register'} className='hover:text-primary duration-200 underline pl-1 dark:text-white'> Register</Link>
         </p>
       </div>
     </div>
