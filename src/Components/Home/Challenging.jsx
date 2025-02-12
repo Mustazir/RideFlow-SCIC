@@ -57,7 +57,7 @@ const CarMaintenanceTips = () => {
 
   return (
     <motion.div
-      className="bg-neutral text-neutral-content my-7 flex flex-col items-center py-10 dark:text-white dark:bg-gray-900"
+      className="px-2 bg-neutral text-neutral-content my-7 flex flex-col items-center py-10 dark:text-white dark:bg-gray-900"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

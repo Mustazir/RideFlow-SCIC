@@ -37,7 +37,7 @@ const Available = () => {
   });
 
   return (
-    <div className="  dark:text-white  dark:bg-gray-800 py-7">
+    <div className="  dark:text-white  dark:bg-gray-800 py-7 px-2">
       <div className="available-cars max-w-screen-2xl mx-auto pt-24  dark:text-white  dark:bg-gray-800 ">
         <div className="controls flex md:flex-row flex-col justify-between items-center mb-20">
           <input
