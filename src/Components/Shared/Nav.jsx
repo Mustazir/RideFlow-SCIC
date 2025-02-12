@@ -4,6 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../AuthProvider";
 import Swal from "sweetalert2";
 import logo from '../../assets/New folder/icons8-hatchback-50.png'
+import DarkModeToggle from "./DarkModeToggle";
 
 const Nav = () => {
     const { user, logout } = useContext(AuthContext);
@@ -85,8 +86,9 @@ const Nav = () => {
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-primary rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content dark:text-white  dark:bg-gray-800 bg-primary rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         {navLinks}
+                        <DarkModeToggle></DarkModeToggle>
                     </ul>
                 </div>
                 <div className="flex items-center">
@@ -99,6 +101,7 @@ const Nav = () => {
             <div className=" hidden lg:flex">
                 <ul className="menu menu-horizontal text-lg px-1">
                     {user ? navLinks : guestNavLinks}
+                    <DarkModeToggle></DarkModeToggle>
                 </ul>
             </div>
             <div className="">

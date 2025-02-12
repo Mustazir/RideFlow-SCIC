@@ -97,11 +97,11 @@ const Mybooking = () => {
     };
 
     return (
-        <div className="p-6 pt-24 dark:text-white  dark:bg-black">
+        <div className="p-6 pt-24 dark:text-white  dark:bg-gray-800">
             <div className="overflow-x-auto mb-40">
                 <table className="min-w-full table-auto border-collapse">
                     <thead>
-                        <tr className="bg-gray-300 text-zinc-800 dark:text-white  dark:bg-black">
+                        <tr className="bg-gray-300 text-zinc-800 dark:text-white  dark:bg-gray-800">
                             <th className="p-2 text-left font-bold">Car Image</th>
                             <th className="p-2 text-left font-bold">Car Model</th>
                             <th className="p-2 text-left font-bold">Booking Date</th>

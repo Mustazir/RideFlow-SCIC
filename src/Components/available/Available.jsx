@@ -37,19 +37,19 @@ const Available = () => {
   });
 
   return (
-    <div className="  dark:text-white  dark:bg-black py-7">
-      <div className="available-cars max-w-screen-2xl mx-auto pt-24  dark:text-white  dark:bg-black ">
+    <div className="  dark:text-white  dark:bg-gray-800 py-7">
+      <div className="available-cars max-w-screen-2xl mx-auto pt-24  dark:text-white  dark:bg-gray-800 ">
         <div className="controls flex md:flex-row flex-col justify-between items-center mb-20">
           <input
             type="text"
             placeholder="Search by car model"
-            className="p-2 border rounded dark:text-white  dark:bg-black"
+            className="p-2 border rounded dark:text-white  dark:bg-gray-800"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <div className="flex items-center gap-4">
             <select
-              className="p-2 border rounded dark:text-white  dark:bg-black"
+              className="p-2 border rounded dark:text-white  dark:bg-gray-800"
               value={sortOption}
               onChange={(e) => setSortOption(e.target.value)}
             >

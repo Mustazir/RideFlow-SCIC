@@ -84,7 +84,7 @@ const Login = () => {
   }
   return (
     <div
-      className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-black"
+      className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-gray-800"
       style={{
         backgroundImage: "url('/b3.jpg')",
       }}
@@ -127,7 +127,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="dark:text-white dark:bg-black dark:border-white dark:border w-full py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
+            className="dark:text-white dark:bg-gray-800 dark:border-white dark:border w-full py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
           >
             Submit
           </button>

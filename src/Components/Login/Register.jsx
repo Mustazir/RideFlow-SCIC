@@ -74,7 +74,7 @@ const Register = () => {
     }
     return (
         <div
-            className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-black"
+            className="h-[calc(100vh-64px)] flex items-center justify-center bg-cover bg-center dark:text-white  dark:bg-gray-800"
             style={{
                 backgroundImage: "url('/b-1.jpg')",
             }}
@@ -154,7 +154,7 @@ const Register = () => {
 
                     <button
                         type="submit"
-                        className="w-full dark:text-white  dark:bg-black dark:border dark:border-white py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
+                        className="w-full dark:text-white  dark:bg-gray-800 dark:border dark:border-white py-2 bg-primary hover:bg-opacity-80 text-white  font-semibold transition duration-300"
                     >
                         Submit
                     </button>

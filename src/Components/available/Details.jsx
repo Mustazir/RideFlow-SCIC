@@ -107,8 +107,8 @@ const Details = () => {
   };
 
   return (
-    <div className="dark:text-white  dark:bg-black md:py-7 md:pt-36">
-      <div className="car-details max-w-4xl mx-auto p-6 pt-24 rounded border dark:text-white  dark:bg-black dark:border-white">
+    <div className="dark:text-white  dark:bg-gray-800 md:py-7 md:pt-36">
+      <div className="car-details max-w-4xl mx-auto p-6 pt-24 rounded border dark:text-white  dark:bg-gray-800 dark:border-white">
         <img
           src={imageUrl}
           alt={carModel}

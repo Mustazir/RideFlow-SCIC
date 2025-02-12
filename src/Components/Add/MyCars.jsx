@@ -115,13 +115,13 @@ const MyCars = () => {
   };
 
   return (
-    <div className="dark:text-white  dark:bg-black">
-      <div className="min-h-screen px-[10vw] text-black p-8 pt-24 dark:text-white  dark:bg-black">
+    <div className="dark:text-white  dark:bg-gray-800">
+      <div className="min-h-screen px-[10vw] text-black p-8 pt-24 dark:text-white  dark:bg-gray-800">
         <div className="mb-8 flex justify-end">
           <select
             value={sortOption}
             onChange={(e) => handleSort(e.target.value)}
-            className="px-4 py-2 border rounded dark:text-white  dark:bg-black"
+            className="px-4 py-2 border rounded dark:text-white  dark:bg-gray-800"
           >
             <option value="">Sort By</option>
             <option value="date-newest">Date Added (Newest First)</option>
