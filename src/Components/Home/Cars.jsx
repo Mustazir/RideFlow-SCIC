@@ -31,6 +31,8 @@ const Cars = ({ cars }) => {
                 >
                   {car.availability ? "Available" : "Unavailable"}
                 </p>
+                <h2 className=" font-medium pt-3">Description:</h2>
+                <p className="text-gray-700 mb-4 dark:text-white">{car.description}</p>
                
               </div>
               <Link to={`/car/${car._id}`}

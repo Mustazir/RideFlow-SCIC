@@ -116,8 +116,8 @@ const Details = () => {
         />
 
         <h1 className="text-2xl font-bold mb-2">{carModel}</h1>
-        <p className="text-gray-600 text-lg mb-2">
-          Price Per Day: <span className="font-bold">${dailyRentalPrice}</span>
+        <p className="text-gray-600 text-lg mb-2 dark:text-white">
+          Price Per Day: <span className="font-bold dark:text-white">${dailyRentalPrice}</span>
         </p>
         <p
           className={`text-lg font-bold mb-2 ${
@@ -126,25 +126,25 @@ const Details = () => {
         >
           {availability ? "Available" : "Unavailable"}
         </p>
-        <p className="text-gray-600">
+        <p className="text-gray-600 dark:text-white">
           Registration Number: {vehicleRegistrationNumber}
         </p>
 
-        <h2 className="text-xl font-bold mt-4 mb-2">Features:</h2>
+        <h2 className="text-xl font-bold mt-4 mb-2 ">Features:</h2>
         {features && features.length > 0 ? (
           <ul className="list-disc list-inside mb-4">
             {features.map((feature, index) => (
-              <li key={index} className="text-gray-700">
+              <li key={index} className="text-gray-700 dark:text-white">
                 {feature}
               </li>
             ))}
           </ul>
         ) : (
-          <p className="text-gray-500">No features available.</p>
+          <p className="text-gray-500 dark:text-white">No features available.</p>
         )}
 
         <h2 className="text-xl font-bold mt-4 mb-2">Description:</h2>
-        <p className="text-gray-700 mb-4">{description}</p>
+        <p className="text-gray-700 mb-4 dark:text-white">{description}</p>
 
         <button
           onClick={handleBookNow}
