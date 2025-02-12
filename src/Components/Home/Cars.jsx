@@ -31,7 +31,7 @@ const Cars = ({ cars }) => {
                 >
                   {car.availability ? "Available" : "Unavailable"}
                 </p>
-                <p className="text-gray-600">Bookings: {car.bookingCount}</p>
+               
               </div>
               <Link to={`/car/${car._id}`}
                 className=""
