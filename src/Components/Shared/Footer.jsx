@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from '../../assets/New folder/icons8-hatchback-100.png'
 const Footer = () => {
     return (
-        <footer className="border-t-2 text-gray-500 py-16 mt-20">
+        <footer className="dark:bg-gray-800 dark:text-white border-t-2 text-gray-500 py-16 ">
             <div className="max-w-screen-2xl mx-auto px-4">
                 
                 <div className="flex flex-wrap justify-between items-start gap-8 mb-16">
@@ -13,11 +13,11 @@ const Footer = () => {
                                 alt="RideFlow"
                                 className="w-12 h-12"
                             />
-                            <span className="text-xl font-bold text-black">
+                            <span className="text-xl font-bold text-black dark:text-white">
                             RideFlow
                             </span>
                         </div>
-                        <p className="text-gray-400">
+                        <p className="text-gray-400 dark:text-white">
                         RideFlow offers a seamless car rental experience, providing a wide range of vehicles to meet your needs.
                         </p>
                     </div>
@@ -33,12 +33,12 @@ const Footer = () => {
                     </div>
 
                     <div className="w-full md:w-1/4">
-                        <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
-                        <p className="text-gray-400">
+                        <h3 className="text-lg font-semibold text-white mb-4 ">Contact Us</h3>
+                        <p className="text-gray-400 dark:text-white">
                             Savar, Dhaka, Bangladesh
                         </p>
-                        <p className="text-gray-400">Phone: +985639481</p>
-                        <p className="text-gray-400">Email: RideFlow@gmail.com</p>
+                        <p className="text-gray-400 dark:text-white">Phone: +985639481</p>
+                        <p className="text-gray-400 dark:text-white">Email: RideFlow@gmail.com</p>
                     </div>
                 </div>
 

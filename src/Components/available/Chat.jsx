@@ -45,7 +45,7 @@ const Chat = ({ tempBooking }) => {
     };
 
     return (
-        <div className="p-6 pt-24">
+        <div className="p-6 pt-24 dark:text-white  dark:bg-black">
             <h1 className="text-4xl font-bold mb-4 text-center">Rental Price Chart</h1>
             <div className="mb-6">
                 <Bar data={chartData} options={chartOptions} />

@@ -67,7 +67,7 @@ const Nav = () => {
     );
 
     return (
-        <div className={`text-white max-w-full  navbar justify-between px-3 md:px-6 md:fixed md:z-10 transition-all duration-300 ease-in-out 
+        <div className={`text-white max-w-full  navbar justify-between px-3 md:px-6 md:fixed md:z-10 transition-all duration-300 ease-in-out dark:bg-gray-800
             ${isScrolled ? "bg-primary bg-opacity-50 shadow-md" : "bg-primary"}`}>
             <div className="">
                 <div className="dropdown">

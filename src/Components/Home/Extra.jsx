@@ -3,7 +3,7 @@ import imgcg from '../../assets/c1.jpg'
 
 const Extra = () => {
     return (
-        <section className="bg-orange-900 text-gray-500 py-16">
+        <section className="bg-orange-900 text-gray-500 py-16  dark:text-white dark:bg-gray-900">
             <div className="max-w-screen-2xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
                 
                 <div className="flex flex-row gap-5 w-full lg:w-1/2">

@@ -37,7 +37,7 @@ const WhyChoseUs = () => {
                             className="   "
                         >
                             <img src={feature.icon} alt={feature.title} className=" h-56 w-full object-cover" />
-                            <div className="flex border-primary flex-col h-36 pt-5  border-b-[1px]  items-center">
+                            <div className="flex border-primary dark:border-white flex-col h-36 pt-5  border-b-[1px]  items-center">
                                 <h3 className="text-2xl font-funnel  font-bold mb-2">{feature.title}</h3>
                                 <p className=" text-gray-500 text-center">{feature.description}</p>
                                 

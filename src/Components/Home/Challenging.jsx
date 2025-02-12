@@ -57,13 +57,13 @@ const CarMaintenanceTips = () => {
 
   return (
     <motion.div
-      className="bg-neutral text-neutral-content my-7 flex flex-col items-center py-10"
+      className="bg-neutral text-neutral-content my-7 flex flex-col items-center py-10 dark:text-white dark:bg-gray-900"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <motion.h1
-        className="text-4xl font-bold text-orange-400"
+        className="text-4xl font-bold text-orange-400 dark:text-white dark:bg-gray-900"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -81,26 +81,26 @@ const CarMaintenanceTips = () => {
 
       {/* Maintenance Frequency Section */}
       <motion.div
-        className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 text-center"
+        className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 text-center "
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 1 }}
       >
-        <div className="bg-gray-800 p-4 rounded-lg shadow">
+        <div className="bg-gray-800  p-4 rounded-lg shadow">
           Oil Change <br />
-          <span className="text-orange-400">Every 6 months</span>
+          <span className="text-orange-400 dark:text-white">Every 6 months</span>
         </div>
         <div className="bg-gray-800 p-4 rounded-lg shadow">
           Tire Check <br />
-          <span className="text-orange-400">Every 3 months</span>
+          <span className="text-orange-400  dark:text-white">Every 3 months</span>
         </div>
-        <div className="bg-gray-800 p-4 rounded-lg shadow">
+        <div className="bg-gray-800 p-4 rounded-lg shadow  dark:text-white">
           Brake Pads <br />
-          <span className="text-orange-400">Every 10,000 miles</span>
+          <span className="text-orange-400  dark:text-white">Every 10,000 miles</span>
         </div>
         <div className="bg-gray-800 p-4 rounded-lg shadow">
           Air Filter <br />
-          <span className="text-orange-400">Every 6 months</span>
+          <span className="text-orange-400  dark:text-white">Every 6 months</span>
         </div>
       </motion.div>
 
@@ -119,7 +119,7 @@ const CarMaintenanceTips = () => {
               onClick={() => setActiveCategory(category.name)}
               className={`px-4 py-2 rounded-lg ${
                 activeCategory === category.name
-                  ? "bg-orange-400 text-white"
+                  ? "bg-orange-400 text-white  dark:text-black  dark:bg-white"
                   : "bg-gray-700 hover:bg-gray-600"
               }`}
               whileHover={{ scale: 1.1 }}

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../Shared/Button';
 
 const Cars = ({ cars }) => {
 
   return (
-    <div className="px-4 py-8 my-7 ">
+    <div className="px-4 py-8 my-7 dark:text-white dark:bg-gray-900 dark:border-white">
       <h2 className="text-4xl font-bold mb-8  text-center">Recent Listings</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-screen-2xl mx-auto">
         {cars.slice(0, 6).map((car) => (
@@ -33,10 +34,11 @@ const Cars = ({ cars }) => {
                 <p className="text-gray-600">Bookings: {car.bookingCount}</p>
               </div>
               <Link to={`/car/${car._id}`}
-                className="mt-4 w-full bg-primary text-white p-2 transition"
+                className=""
                 disabled={!car.availability}
               >
-                {car.availability ? "Book Now" : "Unavailable"}
+                <Button text={car.availability ? "Book Now" : "Unavailable"} ></Button>
+                
               </Link>
             </div>
           </div>

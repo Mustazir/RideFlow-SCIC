@@ -33,16 +33,16 @@ const SpecialOffers = () => {
     };
 
     return (
-        <section className="my-7 text-gray-500 py-16">
+        <section className="my-7 text-gray-500 py-16 dark:text-white dark:bg-gray-900">
             <div className="max-w-screen-2xl mx-auto px-4">
-                <h2 className="text-4xl font-bold text-black text-center mb-8">
+                <h2 className="text-4xl font-bold text-black text-center mb-8 dark:text-white dark:bg-gray-900">
                     Special Offers
                 </h2>
                 <div className="flex flex-wrap justify-center gap-6">
                     {offers.map((offer, index) => (
                         <motion.div
                             key={index}
-                            className="bg-orange-700 rounded-lg shadow-lg p-6 w-full md:w-96"
+                            className="bg-orange-700 rounded-lg shadow-lg p-6 w-full md:w-96 dark:text-white dark:bg-gray-800"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -56,11 +56,12 @@ const SpecialOffers = () => {
                             </h3>
                             <p className="text-gray-400 mb-4">{offer.description}</p>
                             <button
-                                className="bg-primary text-white py-2 px-4 rounded hover:bg-primary-600 transition"
+                                className="bg-primary text-white dark:text-white dark:bg-gray-900 hover:dark:text-white hover:dark:bg-gray-600 py-2 px-4 rounded hover:bg-primary-600 transition"
                                 onClick={handleCopyCode} // Attach function to button
                             >
                                 {offer.buttonText}
                             </button>
+                            
                         </motion.div>
                     ))}
                 </div>

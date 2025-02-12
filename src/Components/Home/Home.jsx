@@ -22,7 +22,7 @@ const Home = () => {
         </div>
     }
     return (
-        <div className='md:pt-16'>
+        <div className='md:pt-16 dark:text-white dark:bg-gray-900'>
             <Banner></Banner>
             <WhyChoseUs></WhyChoseUs>
             <Cars cars={datas}></Cars>

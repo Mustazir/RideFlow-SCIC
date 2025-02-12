@@ -45,13 +45,13 @@ const ReviewSection = () => {
 
   return (
     <motion.div
-      className=" text-white my-7 flex flex-col items-center py-10"
+      className=" text-white py-7 flex flex-col items-center py-10 dark:text-white dark:bg-gray-900"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <motion.h2
-        className="text-3xl font-bold text-black"
+        className="text-3xl font-bold text-black dark:text-white dark:bg-gray-900"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -59,7 +59,7 @@ const ReviewSection = () => {
         User Reviews
       </motion.h2>
       <motion.p
-        className="mt-2 text-sm text-black"
+        className="mt-2 text-sm text-black dark:text-white dark:bg-gray-900"
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
@@ -69,7 +69,7 @@ const ReviewSection = () => {
 
       {/* Review Slider with Fade Transition */}
       <motion.div
-        className="flex justify-center gap-6 mt-8"
+        className="flex justify-center gap-6 mt-8 dark:text-white dark:bg-gray-900"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 1 }}
@@ -90,7 +90,7 @@ const ReviewSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="text-xl font-semibold text-orange-400">{review.name}</div>
+            <div className="text-xl font-semibold text-orange-400 dark:text-white ">{review.name}</div>
             <p className="mt-2 text-sm text-center">{review.review}</p>
             <div className="mt-4 text-yellow-400">
               {Array.from({ length: review.rating }, (_, index) => (
