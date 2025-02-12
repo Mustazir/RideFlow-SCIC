@@ -80,7 +80,7 @@ const Update = () => {
     }
 
     return (
-        <div style={{ backgroundImage: "url('/moto-bg.jpg')" }} className="flex flex-col items-center p-8 pt-24">
+        <div style={{ backgroundImage: "url('')" }} className="flex flex-col items-center p-8 pt-24 dark:text-white  dark:bg-black ">
             <h1 className="text-3xl font-bold text-center mb-6">Update {formData.carModel}</h1>
             <div className="w-full max-w-2xl bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-8 shadow-lg">
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -113,7 +113,7 @@ const Update = () => {
                             name="dailyRentalPrice"
                             value={formData.dailyRentalPrice}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 bg-gray-700 bg-opacity-50 text-white focus:outline-none focus:ring-2 focus:ring-primary"
+                            className="w-full px-4 py-2 bg-gray-700 bg-opacity-50 text-white focus:outline-none focus:ring-2 focus:ring-primary "
                             required
                         />
                     </div>
@@ -164,7 +164,7 @@ const Update = () => {
                     <div>
                         <button
                             type="submit"
-                            className="mt-4 border-2 border-primary hover:bg-transparent px-5 py-3 bg-primary duration-200 w-full"
+                            className="mt-4 border-2 border-white hover:bg-transparent px-5 py-3 bg-primary duration-200 w-full dark:text-white  dark:bg-black"
                         >
                             Update Car
                         </button>
