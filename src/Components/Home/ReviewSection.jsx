@@ -59,7 +59,7 @@ const ReviewSection = () => {
         User Reviews
       </motion.h2>
       <motion.p
-        className="mt-2 text-sm text-black dark:text-white dark:bg-gray-900"
+        className="mt-2 text-sm text-black dark:text-white dark:bg-gray-900 text-center"
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}

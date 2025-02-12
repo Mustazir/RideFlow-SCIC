@@ -64,7 +64,7 @@ const MyCars = () => {
 
   if (myData.length === 0) {
     return (
-      <div className="h-[calc(100vh-64px)] font-title flex-col flex justify-center items-center">
+      <div className="h-[calc(100vh-64px)] font-title flex-col flex justify-center items-center p-3">
         <h1 className="text-4xl">You Didn't Add Any Cars</h1>
         <h1 className="text-lg text-zinc-500 mt-9 mb-9">
           - Please go to Add Cars page and add your Car -

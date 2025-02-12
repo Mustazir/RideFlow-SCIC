@@ -63,7 +63,7 @@ const CarMaintenanceTips = () => {
       transition={{ duration: 1 }}
     >
       <motion.h1
-        className="text-4xl font-bold text-orange-400 dark:text-white dark:bg-gray-900"
+        className="text-4xl text-center font-bold text-orange-400 dark:text-white dark:bg-gray-900"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
